@@ -1,0 +1,22 @@
+{
+  "name": "lifted",
+  "version": "1.0.0",
+  "description": "lifted technical test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "refresh-uat": "node refreshUat.js",
+    "schedule-uat-refresh": "node cron.js"
+  },
+  "author": "Sam Adejumo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-cron": "^3.0.0",
+    "pg": "^8.7.3",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}

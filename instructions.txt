@@ -1,0 +1,24 @@
+1. Run npm install to install node modules
+
+2. Correctly populate the .env file with the following variables for your databases
+
+DB_USER_PROD=
+DB_HOST_PROD=
+DB_DATABASE_PROD=
+DB_PASSWORD_PROD=
+DB_PORT_PROD=
+
+DB_USER_UAT=
+DB_HOST_UAT=
+DB_DATABASE_UAT=
+DB_PASSWORD_UAT=
+DB_PORT_UAT=
+
+3. scripts to run projects shown in package.json scripts
+
+To refresh the uat database with data from prod
+-- npm run refresh-uat
+
+To run the refresh uat cron job that runs at 1am every day
+-- npm run schedule-uat-refresh
+
